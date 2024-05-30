@@ -45,5 +45,6 @@ public class Procesadores {
         this.nombre = nombre;
     }
     //metodos personalizados
-    //papap
+    //Imprimir datos
+
 }
