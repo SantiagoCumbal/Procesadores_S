@@ -45,6 +45,6 @@ public class procesadores {
         this.nombre = nombre;
     }
     //metodos personalizados
-    //oaaaaa
+    //papap
 
 }
