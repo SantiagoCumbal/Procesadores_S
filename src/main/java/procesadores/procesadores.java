@@ -1,12 +1,12 @@
 package Procesadores;
 
-public class Procesadores {
+public class procesadores {
     int nucleos;
     double consumo, velocidad;
     String nombre;
-    public Procesadores() {}
+    public procesadores() {}
 
-    public Procesadores(int nucleos, double consumo, double velocidad, String nombre) {
+    public procesadores(int nucleos, double consumo, double velocidad, String nombre) {
         this.nucleos = nucleos;
         this.consumo = consumo;
         this.velocidad = velocidad;

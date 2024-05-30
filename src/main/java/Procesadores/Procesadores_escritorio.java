@@ -1,6 +1,6 @@
 package Procesadores;
 
-public class Procesadores_escritorio extends Procesadores {
+public class Procesadores_escritorio extends procesadores {
     String socket;
     public Procesadores_escritorio() {}
     public Procesadores_escritorio(int nucleos, double consumo, double velocidad, String nombre,String socket) {

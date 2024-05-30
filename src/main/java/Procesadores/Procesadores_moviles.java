@@ -1,6 +1,6 @@
 package Procesadores;
 
-public class Procesadores_moviles extends Procesadores{
+public class Procesadores_moviles extends procesadores{
     boolean optimizacion_energia;
     public Procesadores_moviles() {}
     public Procesadores_moviles(int nucleos, double consumo, double velocidad, String nombre, boolean optimizacion_energia) {
