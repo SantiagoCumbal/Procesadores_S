@@ -3,6 +3,7 @@ import Procesadores.Procesadores;
 import Procesadores.Procesador_AMD;
 import Procesadores.Procesadores_moviles;
 import Procesadores.Procesador_Intel;
+import Procesadores.Procesadores_escritorio;
 
 
 
@@ -22,8 +23,9 @@ public class Main {
         Procesador_Intel p5 = new Procesador_Intel();
         Procesador_Intel p6 = new Procesador_Intel(16, 25, 45, "Nvidia 1560 GTX","AM2+", true );
 
-        // 2 Instancias integrante 2
-
+        // 2 Instancias integrante 2Procesadores.Procesadores_escritorio
+        Procesadores_escritorio p7 = new Procesadores_escritorio();
+        Procesadores_escritorio p8 = new Procesadores_escritorio(11,34,60,"Intel core I7","LGAIntel");
 
 
 
