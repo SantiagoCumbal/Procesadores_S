@@ -44,4 +44,5 @@ public class procesadores {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+    //metodos personalizados
 }
