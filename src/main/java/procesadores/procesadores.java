@@ -1,12 +1,12 @@
-package procesadores;
+package Procesadores;
 
-public class procesadores {
+public class Procesadores {
     int nucleos;
-    Double consumo, velocidad;
+    double consumo, velocidad;
     String nombre;
-    public procesadores() {}
+    public Procesadores() {}
 
-    public procesadores(int nucleos, Double consumo, Double velocidad, String nombre) {
+    public Procesadores(int nucleos, double consumo, double velocidad, String nombre) {
         this.nucleos = nucleos;
         this.consumo = consumo;
         this.velocidad = velocidad;
@@ -21,19 +21,19 @@ public class procesadores {
         this.nucleos = nucleos;
     }
 
-    public Double getVelocidad() {
+    public double getVelocidad() {
         return velocidad;
     }
 
-    public void setVelocidad(Double velocidad) {
+    public void setVelocidad(double velocidad) {
         this.velocidad = velocidad;
     }
 
-    public Double getConsumo() {
+    public double getConsumo() {
         return consumo;
     }
 
-    public void setConsumo(Double consumo) {
+    public void setConsumo(double consumo) {
         this.consumo = consumo;
     }
 
@@ -46,5 +46,4 @@ public class procesadores {
     }
     //metodos personalizados
     //papap
-
 }
