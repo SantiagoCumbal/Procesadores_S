@@ -4,6 +4,8 @@ import Procesadores.Procesadores;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        Procesadores p1 = new Procesadores();
+
 
     }
 }
