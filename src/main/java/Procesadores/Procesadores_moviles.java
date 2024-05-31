@@ -15,4 +15,9 @@ public class Procesadores_moviles extends procesadores{
     public void setOptimizacion_energia(boolean optimizacion_energia) {
         this.optimizacion_energia = optimizacion_energia;
     }
+    //Imprimir Datos
+    @Override
+    public void Imprimir_Datos() {
+        System.out.println("Procesador de móvil");
+    }
 }
