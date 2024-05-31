@@ -17,7 +17,8 @@ public class Procesadores_escritorio extends procesadores {
     }
 
     //Imprimir
-    public void Imprimir_esc(){
+    @Override
+    public void Imprimir_Datos(){
         super.Imprimir_Datos();
         System.out.println("Computador de escritorio");
     }
