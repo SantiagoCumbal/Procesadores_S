@@ -15,4 +15,11 @@ public class Procesadores_escritorio extends procesadores {
     public void setSocket(String socket) {
         this.socket = socket;
     }
+
+    //Imprimir
+    public void Imprimir_esc(){
+        super.Imprimir_Datos();
+        System.out.println("Computador de escritorio");
+    }
+
 }

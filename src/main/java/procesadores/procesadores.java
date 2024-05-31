@@ -44,7 +44,15 @@ public class procesadores {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
     //metodos personalizados
     //Imprimir datos
+    public void Imprimir_Datos(){
+        System.out.println("Esta la clase principal en el primer nivel");
+        System.out.println("Nucleos: " + nucleos);
+        System.out.println("Consumo: " + consumo);
+        System.out.println("Velocidad: " + velocidad);
+        System.out.println("Nombre: " + nombre);
+    }
 
 }

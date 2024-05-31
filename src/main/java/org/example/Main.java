@@ -1,5 +1,5 @@
 package org.example;
-import Procesadores.Procesadores;
+import Procesadores.procesadores;
 import Procesadores.Procesador_AMD;
 import Procesadores.Procesadores_moviles;
 import Procesadores.Procesador_Intel;
@@ -22,11 +22,24 @@ public class Main {
 
         Procesador_Intel p5 = new Procesador_Intel();
         Procesador_Intel p6 = new Procesador_Intel(16, 25, 45, "Nvidia 1560 GTX","AM2+", true );
+        Procesadores_escritorio p7 = new Procesadores_escritorio(11,34,60,"Intel core I7","LGAIntel");
 
-        // 2 Instancias integrante 2Procesadores.Procesadores_escritorio
-        Procesadores_escritorio p7 = new Procesadores_escritorio();
-        Procesadores_escritorio p8 = new Procesadores_escritorio(11,34,60,"Intel core I7","LGAIntel");
+        //Santiago Cumbal
+        Procesadores_moviles p8 = new Procesadores_moviles(6, 0.5, 3.23, "A15 Bionic",true);
+        Procesador_Intel p9 = new Procesador_Intel(16, 25, 45, "","AM2+", true );
+        Procesadores_escritorio p10 = new Procesadores_escritorio(11,34,60,"Intel core I7","LGAIntel");
 
+        //Imprimir datos
+        p1.Imprimir_Datos();
+        p2.Imprimir_Datos();
+        p3.Imprimir_Datos();
+        p4.Imprimir_Datos();
+        p5.Imprimir_Datos();
+        p6.Imprimir_Datos();
+        p7.Imprimir_Datos();
+        p8.Imprimir_Datos();
+        p9.Imprimir_Datos();
+        p10.Imprimir_Datos();
 
 
 

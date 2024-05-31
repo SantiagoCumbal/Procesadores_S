@@ -15,4 +15,6 @@ public class Procesador_Intel extends Procesadores_escritorio{
     public void setSensor_temperatura(boolean sensor_temperatura) {
         this.sensor_temperatura = sensor_temperatura;
     }
+
+    //Mostrar datos
 }
