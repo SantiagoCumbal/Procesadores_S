@@ -19,6 +19,6 @@ public class Procesador_AMD extends Procesadores_escritorio{
 
     @Override
     public void Imprimir_Datos(){
-        System.out.println("Clase hija: AMD");
+        System.out.println("Procesador AMD");
     }
 }
